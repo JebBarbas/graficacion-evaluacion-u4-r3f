@@ -31,7 +31,7 @@ export default function CustomCylinder(){
         'Translación': folder({
             position: {
                 value: [0, 0, 0],
-                min: -5,
+                min: 0,
                 max: 5,
                 step: 0.1,
                 render: get => !get('Transformaciones.itemMode')
@@ -44,10 +44,10 @@ export default function CustomCylinder(){
         type: {
             value: 1,
             options: {
-                'Figura 2D': 0,
-                'Figura 3D': 1,
-                'Cono 3D': 2,
-                'Esfera 3D': 3
+                'Polígono (2D)': 0,
+                'Prisma (3D)': 1,
+                'Pirámide (3D)': 2,
+                'Esfera (3D)': 3
             }
         }
     })

@@ -3,6 +3,7 @@ import { Canvas } from "@react-three/fiber"
 import { Texture } from "three"
 import Figure from "./Figure"
 import { Suspense } from "react"
+import AuthorWatermark from "./AuthorWatermark"
 
 function ThreeContent(){
     // https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky
@@ -42,6 +43,7 @@ function App() {
     return (
         <div className="h-screen">
             <ThreeScene/>
+            <AuthorWatermark/>
         </div>
     )
 }

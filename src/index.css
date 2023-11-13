@@ -9,3 +9,12 @@ body {
 .h-screen {
     height: 100vh;
 }
+
+.author__watermark {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem;
+}
